@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_dialog_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일반 다이아로그" />
+
+    <Button
+        android:id="@+id/btn_dialog_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="읿반 목록 다이아로그" />
+
+    <Button
+        android:id="@+id/btn_dialog_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="라디오 다이아로그" />
+
+    <Button
+        android:id="@+id/btn_dialog_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체크박스 다이아로그" />
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="custom 다이아로그" />
+</LinearLayout>
